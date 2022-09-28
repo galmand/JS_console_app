@@ -1,3 +1,5 @@
+"use strict";
+
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
@@ -17,3 +19,10 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+const hamburger = true,
+      fries = false;
+
+if (hamburger || fries) {
+    console.log('Я сыт');
+}
